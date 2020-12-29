@@ -15,7 +15,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 module.exports = app => {
   app.get('/', (req, res) => {
-    res.render("home");
+    res.render("index");
   });
   // app.get('/index.html', (req, res) => {
   //   res.sendFile(path.join(__dirname + '/../views/index.html'));
